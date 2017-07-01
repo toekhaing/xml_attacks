@@ -1,7 +1,7 @@
 ## Detection ##
 
-'	  -	Single Quote
-''  -	Double Quote
+'	 (Single Quote)
+"  (Double Quote)
 
 
 ## Exploitation ##
