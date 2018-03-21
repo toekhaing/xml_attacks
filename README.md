@@ -1,10 +1,10 @@
 
 # Collection of XML Attacks &amp; Payloads
 
-* [Xml Injection] (https://github.com/toekhaing/xml_attacks/blob/master/xpath_Injection.md)
+* [XML Injection/Tag Injection](https://www.google.com)
 
 * XPath Injection
 
 * XML External Entities (XXE)
 
-[XML Injection](https://www.google.com)
+
