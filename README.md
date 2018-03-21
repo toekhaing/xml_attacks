@@ -7,4 +7,4 @@
 
 * XML External Entities (XXE)
 
-[I'm an inline-style link](https://www.google.com)
+[XML Injection](https://www.google.com)
